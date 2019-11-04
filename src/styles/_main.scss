@@ -53,4 +53,45 @@ body {
         font-weight: 600;
         padding: 7px 17px;
     }
+
+    &--home {
+        border-radius: 0 4px 4px 0;
+    }
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.section-description {
+    padding: 70px 0;
+
+    &--home {
+        padding-top: 150px;
+        width: 560px;
+    }
+
+    &__title {
+        font-size: 60px;
+        font-weight: 900;
+        padding: 10px 0;
+        text-align: center;
+
+        &--home {
+            font-size: 70px;
+            font-weight: 900;
+            text-align: left;
+        }
+    }
+
+    &__text {
+        font-size: 21px;
+        font-weight: 400;
+        padding: 10px 0;
+
+        &--home {
+            font-weight: 300;
+        }
+    }
 }
