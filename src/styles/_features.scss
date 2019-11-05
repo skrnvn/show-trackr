@@ -27,6 +27,7 @@
     font-size: 16px;
     font-weight: 600;
     padding-top: 25px;
+    padding-bottom: 150px;
 
     &__item {
         display: flex;
@@ -42,5 +43,21 @@
         p {
             padding: 2px 17px;
         }
+    }
+}
+
+.app-positioner {
+    position: absolute;
+
+    &--mobile {
+        top: 20%;
+        left: 110%;
+    }
+
+    &--desktop {
+        top: 0%;
+        left: 120%;
+        z-index: -1;
+        box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
     }
 }
