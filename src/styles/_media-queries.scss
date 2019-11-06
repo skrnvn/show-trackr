@@ -1,0 +1,143 @@
+@media screen and (max-width: 375px) {
+    .header {
+        padding: 10px 16px;
+        justify-content: space-between;
+        align-items: center;
+
+        .header-nav {
+            display: none;
+        }
+
+        .header-auth__login {
+            display: none;
+        }
+    }
+
+    .footer {
+        font-size: 11px;
+        font-weight: 400;
+    }
+
+    // general 
+    .container {
+        width: 375px;
+
+        &--community {
+            flex-direction: column;
+        }
+    }
+
+    .section-description {
+        padding: 60px 15px;
+        width: auto;
+
+        &--home {
+            padding: 40px 15px 550px;
+        }
+
+        &__name {
+            text-align: left;
+        }
+
+        &__title {
+            font-size: 35px;
+            text-align: left;
+
+            &--medium {
+                font-size: 32px;
+                font-weight: 700;
+            }
+
+            &--small {
+                font-size: 18px;
+                font-weight: 700;
+            }
+
+            &--large {
+                font-size: 42px;
+                font-weight: 900;
+            }
+        }
+
+        &__text {
+            font-size: 18px;
+            text-align: left;
+
+            &--small {
+                font-size: 16px;
+            }
+        }
+
+        &__link {
+            text-align: left;
+        }
+    }
+
+    // home section
+    .compatible-services {
+        padding: 50px 0;
+    }
+
+    .squares-large {
+        width: 409px;
+        height: 409px;
+    
+        &__wrap {
+            top: 60%;
+            left: 45%;
+        }
+    }
+
+    .squares-small {
+        width: 196px;
+        height: 196px;
+        top: 110%;
+        left: -30%;
+    }
+
+    .mobile-app-img {
+        top: 60%;
+        left: 9%;
+    }
+
+    // features section
+    .features-list {
+        padding: 0 15px;
+        flex-direction: column;
+
+        &__item {
+            padding: 20px 0;
+        }
+
+        &__icon {
+            margin: 0;
+        }
+    }
+
+    .mobile-features-list {
+        padding-bottom: 590px;
+    }
+
+    .app-positioner--desktop {
+        display: none;
+    }
+
+    .app-positioner--mobile {
+        top: 45%;
+        left: 9%;
+    }
+
+    // community section 
+    .testimonials {
+        
+        &__row1 {
+            display: flex;
+            margin: 0 -270px;
+            padding-bottom: 100px;
+        }
+
+        &__row2 {
+            display: none;
+        }
+    }
+}
