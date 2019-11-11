@@ -184,6 +184,7 @@ body {
         text-align: center;
 
         &--community {
+            text-align: left;
             opacity: 0.8;
             color: #ffffff;
         }
@@ -245,11 +246,11 @@ body {
     }
 
     &--small {
-    width: 392px;
-    height: 392px;
+    width: 450px;
+    height: 450px;
     z-index: -1;
     bottom: -170px;
-    left: -410px;
+    left: -450px;
     }
 
     &--desktop {
