@@ -42,32 +42,3 @@
         }
     }
 }
-
-.squares-large {
-    width: 817px;
-    height: 816px;
-
-
-    &__wrap {
-        width: 425px;
-        position: absolute;
-        top: -35%;
-        right: 0;
-        z-index: -1;
-        overflow: hidden;
-    }
-}
-
-.squares-small {
-    width: 392px;
-    height: 392px;
-    position: absolute;
-    top: 75%;
-    left: -15%;
-}
-
-.mobile-app-img {
-    position: absolute;
-    top: 15%;
-    left: 60%;
-}
