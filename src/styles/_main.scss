@@ -85,6 +85,12 @@ body {
         align-items: center;
     }
 
+    &--features {
+        position: relative;
+        display: flex;
+        align-items: center;
+    }
+
     &--community {
         max-width: 1100px;
         margin: 0 auto;
@@ -244,6 +250,12 @@ body {
     z-index: -1;
     bottom: -170px;
     left: -410px;
+    }
+
+    &--desktop {
+        z-index: -1;
+        top: -40px;
+        right: -260px;
     }
 }
 
